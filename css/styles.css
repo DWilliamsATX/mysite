@@ -2,7 +2,7 @@ body {
   font-family: 'Merriweather', serif;
   margin: 0;
   text-align: center;
-
+  color: #40514e;
 }
 
 a {
@@ -28,6 +28,15 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  margin: 80px auto 80px auto;
+  width: 3%;
+}
+
 .top-container {
   background-color: #a8d8ea;
   padding-top: 100px;
@@ -35,11 +44,13 @@ h3 {
 }
 
 .middle-container {
-  background-color: white;
+  background-color: #f7f7f7;
 }
 
 .bottom-container {
-  background-color: #fcbad3;
+  background-color: #a8d8ea;
+  padding-bottom: 20px;
+  padding-top: 40px;
 }
 
 .top-cloud {
@@ -56,4 +67,72 @@ h3 {
 
 .pro {
   text-decoration: line-through;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.me-img {
+  height: auto;
+  margin-top: 50px;
+  width: 25%;
+}
+
+.semi-img {
+  float: left;
+  padding-right: 30px;
+  width: 25%;
+}
+
+.tails-img {
+  float: right;
+  padding-left: 30px;
+  width: 25%;
+}
+
+.contact-button {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 1rem;
+  font-weight: 100;
+  padding: 10px;
+  background-color: #3D94F6;
+  box-shadow: 1px 1px 20px 0px #000000;
+  -webkit-box-shadow: 1px 1px 20px 0px #000000;
+  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  text-shadow: 1px 1px 20px #000000;
+  border: solid #337FED 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  margin: 40px 0 60px 0;
+}
+
+.contact-button:hover {
+  background: #11999E;
+  border: solid #11999E 1px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.footer-link {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.footer-credit {
+  color: #EAF6F6;
+  font-size: 0.7REM;
+  padding-bottom: 10px;
+  padding-top: 10px;
 }
